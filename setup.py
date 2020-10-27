@@ -28,8 +28,12 @@ def readfile(filename):
 # add minimum requirements here
 #
 requiers = """
-psutil
-pygments
+cloudmesh-cmd5
+cloudmesh-sys
+cloudmesh-inventory
+cloudmesh-configuration
+cloudmesh-cloud
+cloudmesh-openstack
 """.split("\n")
 
 # dependency_links = ['http://github.com/nicolaiarocci/eve.git@develop']
